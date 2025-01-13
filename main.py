@@ -17,8 +17,7 @@ def character_count(text):
     lowered_text = text.lower()
     count = {}
     for letter in lowered_text:
-        if letter.isalpha():
-            count[letter] = count.get(letter, 0) + 1
+        count[letter] = count.get(letter, 0) + 1
     return count
     
         
